@@ -35,7 +35,7 @@ const Seo = ({ title, description, image, url, keywords }: SeoProps) => {
       />
       <meta property="og:url" content={url ?? siteConfig.domain} />
       <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="Adedoyin Emmanuel Adeniyi" />
+      <meta property="og:site_name" content="Christopher Chijikem Agu" />
 
       <meta property="twitter:title" content={title ?? siteConfig.headline} />
       <meta
@@ -55,10 +55,9 @@ const Seo = ({ title, description, image, url, keywords }: SeoProps) => {
 
       <link rel="icon" href="/favicon.ico" />
 
-
       <meta name="msapplication-TileColor" content="#000" />
       <meta name="theme-color" content="#527ff1" />
-      <meta name="application-name" content="Adedoyin Emmanuel" />
+      <meta name="application-name" content="Christopher Chijikem Agu" />
       <meta name="msapplication-TileImage" content="/emmysoft.png" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="default" />

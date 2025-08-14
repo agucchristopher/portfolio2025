@@ -1,9 +1,11 @@
 export const siteConfig = {
-  domain: "https://adedoyinemmanuel.dev",
-  name: "Adedoyin Emmanuel - Software Engineer",
-  headline: "Adedoyin Emmanuel  | Software Engineer | CS",
-  description: "About Adedoyin Emmanuel Adeniyi - CS, Software Engineer",
+  domain: "https://aguchristopher.dev",
+  name: "Christopher Chijikem Agu - Software Engineer",
+  headline:
+    "Christopher Chijikem Agu  | Software Engineer | Mobile Developer | CS",
+  description:
+    "About Christopher Chijikem Agu - CS, Software Engineer, Mobile Developer",
   keywords:
-    "adedoyin, adedoyin emmanuel, software engineer",
+    "christopher, christopher chijikem agu, software engineer, mobile developer, react native, flutter, forex trader",
   image: "https://adedoyinemmanuel.dev/emma-3.jpg",
 };

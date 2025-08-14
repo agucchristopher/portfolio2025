@@ -1,0 +1,157 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Portfolio Website",
+      "tag": "Web App",
+      "description": "A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS. Features smooth animations, SEO optimization, and a clean design.",
+      "languages": ["TypeScript", "Next.js", "Tailwind CSS", "GSAP"],
+      "url": "https://github.com/agucchristopher/portfolio2025",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "E-Commerce API",
+      "tag": "API",
+      "description": "A RESTful e-commerce API built with Node.js and Express. Features user authentication, product management, order processing, and payment integration.",
+      "languages": ["JavaScript", "Node.js", "Express", "MongoDB"],
+      "url": "https://github.com/agucchristopher/ecommerce-api",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "name": "Task Management App",
+      "tag": "Web App",
+      "description": "A full-stack task management application with real-time updates, user authentication, and collaborative features. Built with React and Firebase.",
+      "languages": ["React", "Firebase", "JavaScript", "CSS"],
+      "url": "https://github.com/agucchristopher/task-manager",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "name": "Weather Dashboard",
+      "tag": "Web App",
+      "description": "A weather dashboard that displays current weather and forecasts using OpenWeatherMap API. Features location-based weather data and interactive charts.",
+      "languages": ["HTML", "CSS", "JavaScript", "Chart.js"],
+      "url": "https://github.com/agucchristopher/weather-dashboard",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "name": "Blog Platform",
+      "tag": "Web App",
+      "description": "A full-featured blog platform with markdown support, user authentication, and admin dashboard. Built with Next.js and Prisma.",
+      "languages": ["TypeScript", "Next.js", "Prisma", "PostgreSQL"],
+      "url": "https://github.com/agucchristopher/blog-platform",
+      "featured": true
+    },
+    {
+      "id": 6,
+      "name": "Chat Application",
+      "tag": "Web App",
+      "description": "Real-time chat application with WebSocket support, user authentication, and file sharing capabilities. Built with Socket.io and React.",
+      "languages": ["React", "Socket.io", "Node.js", "MongoDB"],
+      "url": "https://github.com/agucchristopher/chat-app",
+      "featured": true
+    },
+    {
+      "id": 7,
+      "name": "URL Shortener",
+      "tag": "Web App",
+      "description": "A URL shortening service with analytics, custom URLs, and QR code generation. Features click tracking and user dashboard.",
+      "languages": ["Python", "Flask", "SQLite", "Bootstrap"],
+      "url": "https://github.com/agucchristopher/url-shortener",
+      "featured": false
+    },
+    {
+      "id": 8,
+      "name": "Recipe Finder",
+      "tag": "Web App",
+      "description": "A recipe discovery app that helps users find recipes based on available ingredients. Features search, filtering, and recipe sharing.",
+      "languages": ["React", "Spoonacular API", "CSS", "JavaScript"],
+      "url": "https://github.com/agucchristopher/recipe-finder",
+      "featured": false
+    },
+    {
+      "id": 9,
+      "name": "Expense Tracker",
+      "tag": "Web App",
+      "description": "Personal finance management app with expense tracking, budget planning, and financial analytics. Features data visualization and export capabilities.",
+      "languages": ["Vue.js", "Chart.js", "LocalStorage", "CSS"],
+      "url": "https://github.com/agucchristopher/expense-tracker",
+      "featured": false
+    },
+    {
+      "id": 10,
+      "name": "Quiz App",
+      "tag": "Web App",
+      "description": "Interactive quiz application with multiple categories, scoring system, and leaderboard. Features timer, hints, and result sharing.",
+      "languages": ["JavaScript", "HTML", "CSS", "Trivia API"],
+      "url": "https://github.com/agucchristopher/quiz-app",
+      "featured": false
+    },
+    {
+      "id": 11,
+      "name": "Note Taking App",
+      "tag": "Web App",
+      "description": "A feature-rich note-taking application with markdown support, tags, search functionality, and cloud synchronization.",
+      "languages": ["React", "Markdown", "LocalStorage", "CSS"],
+      "url": "https://github.com/agucchristopher/notes-app",
+      "featured": false
+    },
+    {
+      "id": 12,
+      "name": "Password Generator",
+      "tag": "CLI",
+      "description": "A command-line password generator with customizable length, character types, and strength validation. Built with Python.",
+      "languages": ["Python", "argparse", "secrets"],
+      "url": "https://github.com/agucchristopher/password-generator",
+      "featured": false
+    },
+    {
+      "id": 13,
+      "name": "Fitness Tracker App",
+      "tag": "Mobile App",
+      "description": "A comprehensive fitness tracking mobile app with workout planning, progress tracking, and social features. Built with React Native.",
+      "languages": ["React Native", "TypeScript", "Firebase", "Redux"],
+      "url": "https://github.com/agucchristopher/fitness-tracker",
+      "featured": true
+    },
+    {
+      "id": 14,
+      "name": "Food Delivery App",
+      "tag": "Mobile App",
+      "description": "A food delivery mobile application with real-time order tracking, payment integration, and restaurant management. Built with Flutter.",
+      "languages": ["Flutter", "Dart", "Firebase", "Google Maps API"],
+      "url": "https://github.com/agucchristopher/food-delivery-app",
+      "featured": true
+    },
+    {
+      "id": 15,
+      "name": "E-Learning Platform",
+      "tag": "Mobile App",
+      "description": "An educational mobile app with video courses, quizzes, progress tracking, and offline learning capabilities. Built with React Native.",
+      "languages": ["React Native", "JavaScript", "MongoDB", "AWS S3"],
+      "url": "https://github.com/agucchristopher/elearning-app",
+      "featured": false
+    },
+    {
+      "id": 16,
+      "name": "Social Media App",
+      "tag": "Mobile App",
+      "description": "A social networking mobile app with real-time messaging, photo sharing, and user profiles. Built with Flutter and Firebase.",
+      "languages": ["Flutter", "Dart", "Firebase", "Cloud Storage"],
+      "url": "https://github.com/agucchristopher/social-media-app",
+      "featured": false
+    },
+    {
+      "id": 17,
+      "name": "TradeStats - Forex Trading Dashboard",
+      "tag": "Web App",
+      "description": "A comprehensive forex trading dashboard with real-time trading insights, performance analytics, and trade journal. Features live trades tracking, win rate analysis, and portfolio management tools.",
+      "languages": ["React", "TypeScript", "Next.js", "Vercel"],
+      "url": "https://tradestats.vercel.app/",
+      "featured": true
+    }
+  ]
+}

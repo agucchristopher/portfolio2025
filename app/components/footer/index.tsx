@@ -9,30 +9,24 @@ const Footer = () => {
         <span className="text-gray-500">Reach out to me</span>{" "}
         <span className="flex flex-wrap">
           <Link
-            href={"mailto:hi@adedoyinemmanuel.dev"}
+            href={"mailto:aguchris740@gmail.com"}
             className="underline flex items-end"
           >
-            hi@adedoyinemmanuel.dev <ArrowUpRight className="h-5 w-5" />
-          </Link>{" "}
-          <Link
-            href={"mailto:hi@adedoyine535@gmail.com"}
-            className="underline flex items-end"
-          >
-            adedoyine535@gmail.com <ArrowUpRight className="h-5 w-5" />
+            aguchris740@gmail.com <ArrowUpRight className="h-5 w-5" />
           </Link>
         </span>
       </p>
 
       <div className="flex items-center gap-4 my-5">
         <Link
-          href={"https://github.com/adedoyin-emmanuel"}
+          href={"https://github.com/agucchristopher"}
           className="underline flex items-end"
         >
           Github <ArrowUpRight className="h-5 w-5" />
         </Link>
 
         <Link
-          href={"https://linkedin.com/in/adedoyin-emmanuel"}
+          href={"https://linkedin.com/in/agucchristopher"}
           className="underline flex items-end"
         >
           Linkedin <ArrowUpRight className="h-5 w-5" />

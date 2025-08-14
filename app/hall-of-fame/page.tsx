@@ -26,7 +26,7 @@ const HallOfFame = () => {
     <div className="my-8 content-section">
       <Seo
         title="Hall Of Fame"
-        description="Hall Of Fame Adedoyin Emmanuel Adeniyi - CS, Software Engineer"
+        description="Hall Of Fame Christopher Chijikem Agu - CS, Software Engineer"
       />
       <h1
         className={cn(

@@ -26,7 +26,7 @@ const About = () => {
     <div className="my-4 content-section">
       <Seo
         title="About Me"
-        description="About Adedoyin Emmanuel Adeniyi - CS, Software Engineer"
+        description="About Chijikem Christopher Agu - CS, Software Developer"
       />
       <br />
       <h1
@@ -35,18 +35,19 @@ const About = () => {
           "lg:text-[50px] text-3xl text-center"
         )}
       >
-        Adedoyin Emmanuel Adeniyi
+        Chijikem Christopher Agu
       </h1>
       <br />
 
       <div className="mx-auto flex items-center justify-center">
         <span className="text-gray-600 mx-1">CS Major </span> @{" "}
         <Link
-          href={"https://uopeople.edu "}
+          href={"https://mouau.edu.ng/"}
           className="underline flex items-end text-center mx-1"
         >
           {" "}
-          University Of The People <ArrowUpRight className="h-5 w-5" />
+          Michael Okpara University of Agriculture Umudike{" "}
+          <ArrowUpRight className="h-5 w-5" />
         </Link>
       </div>
 
@@ -54,7 +55,7 @@ const About = () => {
         <div className="lg:flex items-start justify-center lg:gap-6 lg:w-[900px] my-5">
           <img
             src={"/emma-3.jpg"}
-            alt="Adedoyin Emmanuel Adeniyi"
+            alt="Chijikem Christopher Agu"
             width={400}
             height={600}
             className="rounded-lg mx-auto lg:my-0 my-4"
@@ -65,10 +66,10 @@ const About = () => {
               I am a Software Engineer with over 4 years of experience and an
               alumnus of the{" "}
               <Link
-                href="https://alxafrica.com"
+                href="https://mouau.edu.ng/"
                 className="underline text-blue-500"
               >
-                ALX Software Engineering Program
+                Michael Okpara University of Agriculture Umudike
               </Link>{" "}
               , currently pursuring a Bachelors degree in Computer Science with
               a focus on Backend systems and Cloud infrastructure.
@@ -78,38 +79,44 @@ const About = () => {
 
             <p>
               Currently, I mainly work on Backend Systems
-              (API/Mirco-Services/DB) , Bot Development and Web Scrapping.
+              (API/Micro-Services/DB), Mobile Development (React Native &
+              Flutter), Artificial Intelligence and Web3.
             </p>
 
             <br />
 
             <p>
-              I also build fullstack applications (Web Apps, PWAs). I build
-              fast, seamless and scalable user interfaces along with scaleable
-              backend systems.
+              I also build fullstack applications (Web Apps, PWAs, Mobile Apps).
+              I build fast, seamless and scalable user interfaces along with
+              scalable backend systems and cross-platform mobile applications.
             </p>
 
             <br />
 
             <p>
-              I am passionate about open source which is why I make most of my side
-              projects publicly available. My goal is to help others learn from
-              and use the tools I create. I've built serveral libraries, SDKs,
-              CLI tools & BOTs, spanning web-frameworks, payment gateways,
-              automation and bot development. You can find all my projects on
-              GitHub.{" "}
+              I’m passionate about open source and believe in making my side
+              projects accessible to others. By sharing the tools I create, I
+              aim to help others learn and benefit from them. Over the years,
+              I’ve developed several projects covering areas such as AI
+              technologies, mobile development, web frameworks, payment
+              gateways, automation, web3, and bot development. You can explore
+              all of my projects on GitHub.{" "}
               <Link
-                href="https://alxafrica.com"
+                href="https://github.com/agucchristopher"
                 className="underline text-blue-500"
               >
-                Github - @adedoyin-emmanuel
+                Github - @agucchristopher
               </Link>{" "}
             </p>
 
             <Separator className="my-5" />
 
             <p>
-              In my free time, I enjoy playing Call Of Duty and Racing Games.{" "}
+              In my free time, I'm either trading forex, being a degen in the
+              markets, or watching YouTube videos. My trading experience has
+              taught me valuable lessons about risk management, data analysis,
+              and making quick decisions under pressure - skills that translate
+              well into software development.
             </p>
 
             <Link href={"/projects"}>

@@ -1,4 +1,4 @@
-# Adedoyin Emmanuel Adeniyi's Portfolio 🎖️
+# Christopher Chijikem Agu's Portfolio 🎖️
 
 [![wakatime](https://wakatime.com/badge/github/Adedoyin-Emmanuel/adedoyinemmanuel.dev.svg)](https://wakatime.com/badge/github/Adedoyin-Emmanuel/adedoyinemmanuel.dev)
 

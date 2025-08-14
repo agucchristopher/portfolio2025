@@ -7,6 +7,7 @@ import gsap from "gsap";
 import Seo from "@/app/components/seo";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
+import { getFeaturedProjects } from "@/lib/projects";
 
 const playFairDisplay = Playfair_Display({
   weight: "500",
@@ -14,6 +15,8 @@ const playFairDisplay = Playfair_Display({
 });
 
 const Home = () => {
+  const featuredProjects = getFeaturedProjects();
+
   React.useEffect(() => {
     gsap.fromTo(
       ".content-section",
@@ -34,48 +37,42 @@ const Home = () => {
         <h1
           className={cn(playFairDisplay.className, "lg:text-[50px] text-3xl")}
         >
-          Engineering Seamless User Experiences.
+          Crafting Digital Solutions That Matter.
         </h1>
         <br />
         <br />
 
         <div className="lg:text-[20px] text-[15px]">
           <p>
-            I build Scalable Backend Systems, Engaging User Interfaces,
-            Intelligent Bots & Web Scrapers for Automation. Creator of{" "}
+            I transform ideas into powerful digital solutions. From robust
+            backend systems to intuitive mobile apps, I build technology that
+            makes a difference. Creator of{" "}
             <span className="flex items-center gap-x-3 flex-wrap">
-              <ColoredLink href="https://github.com/adedoyin-emmanuel/methane-cli">
-                Methane-Cli
-              </ColoredLink>
-              <ColoredLink href="https://fotograph.vercel.app">
-                Fotograph
-              </ColoredLink>
-              <ColoredLink href="https://github.com/adedoyin-emmanuel/telebot">
-                Telebot
-              </ColoredLink>
-              <ColoredLink href="https://github.com/adedoyin-emmanuel/squad-js-sdk">
-                Squad-Js-SDK
-              </ColoredLink>
-
-              <ColoredLink href="https://codesharp.adedoyin.dev">
-                Codesharp
-              </ColoredLink>
+              {featuredProjects.map((project) => (
+                <ColoredLink key={project.id} href={project.url}>
+                  {project.name}
+                </ColoredLink>
+              ))}
             </span>
           </p>
 
           <br />
           <p>
-            Software Engineer - Building scalable Backend Systems, Crafting
-            Engaging User Interfaces, Intelligent Bots & Web Scrapers for
-            Automation.
+            Full-Stack Software Engineer & Mobile Developer - Passionate about
+            creating innovative solutions that solve real-world problems through
+            clean code and exceptional user experiences.
           </p>
 
           <br />
-          <p>You can do great things from a small place.</p>
+          <p>
+            Turning complex problems into elegant, user-friendly solutions. When
+            I'm not coding, you'll find me analyzing market trends and trading
+            forex.
+          </p>
 
           <br />
 
-          <Link href={"/Adedoyin-Emmanuel-Resume.pdf"} target="_blank">
+          <Link href={"/Christopher-Chijikem-Agu-Resume.pdf"} target="_blank">
             <button className="rounded-[30px] my-4 border hover:bg-black transition-all duration-400 ease-in hover:text-white border-black p-2 w-40 flex items-center justify-center">
               Resume <ArrowUpRight strokeWidth={1.5} />
             </button>

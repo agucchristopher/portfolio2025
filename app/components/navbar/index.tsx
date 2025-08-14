@@ -26,9 +26,11 @@ const Navbar = () => {
             />
           </div>
           <div className="mx-2">
-            <h3 className="font-bold text-[0.89rem]">Adedoyin Emmanuel</h3>
+            <h3 className="font-bold text-[0.89rem]">
+              Christopher Chijikem Agu
+            </h3>
             <p className="text-[0.74rem] text-[#8e8e8e] py-0 md-1">
-              Software Engineer
+              Software Engineer | Mobile Developer
             </p>
           </div>
         </div>
@@ -145,13 +147,13 @@ const Navbar = () => {
                 </li>
 
                 <li className="hover:text-[#5A83ED] transition-colors ease-in-out underline block">
-                  <Link href={"https://github.com/Adedoyin-Emmanuel"}>
+                  <Link href={"https://github.com/agucchristopher"}>
                     Github{" "}
                   </Link>
                 </li>
 
                 <li className="hover:text-[#5A83ED] transition-colors ease-in-out underline block">
-                  <Link href={"https://linkedin.com/in/Adedoyin-Emmanuel"}>
+                  <Link href={"https://linkedin.com/in/agucchristopher"}>
                     Linkedin{" "}
                   </Link>
                 </li>
